@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Portofolio Clein Alexandra</title>
+    <style>
+        body {
+            background-color: #ff69b4;
+            font-family: Arial;
+            color: black;
+            padding: 0;
+            margin: 0;
+        }
+
+        h1 {
+            background: yellow;
+            color: red;
+            text-align: center;
+            font-size: 60px;
+            padding: 30px;
+            border-bottom: 8px dashed green;
+        }
+
+        .nav {
+            background-color: cyan;
+            padding: 15px;
+            text-align: center;
+        }
+
+        .nav a {
+            margin: 15px;
+            font-size: 20px;
+            color: blue;
+            text-decoration: underline;
+        }
+
+        .section {
+            background: white;
+            border: 5px dotted purple;
+            padding: 20px;
+            margin: 20px;
+        }
+
+        .footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 25px;
+            font-size: 18px;
+        }
+
+        img {
+            width: 150px;
+            display: block;
+            margin: 0 auto;
+            border: 5px ridge orange;
+        }
+
+        ul {
+            font-size: 18px;
+        }
+
+        button {
+            background-color: red;
+            color: white;
+            padding: 15px;
+            border: 3px solid blue;
+            font-size: 18px;
+        }
+
+        p {
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Clein Alexandra</h1>
+    <div class="nav">
+        <a href="#about">Tentang</a>
+        <a href="#skills">Keahlian</a>
+        <a href="#projects">Projek</a>
+        <a href="#contact">Kontak</a>
+    </div>
+
+    <div class="section" id="about">
+        <h2>Tentang Saya</h2>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/3/3f/Placeholder_view_vector.svg" alt="Foto Profil">
+        <p>Halo, saya Clein. Saya masih pemula banget dan baru belajar bikin website. Web ini jelek banget tapi saya coba jujur aja apa adanya.</p>
+        <p>Saya masih sering bingung pake CSS, dan belum ngerti responsive design. Tapi saya pengen belajar dan pelan-pelan bisa bikin lebih baik dari ini.</p>
+    </div>
+
+    <div class="section" id="skills">
+        <h2>Keahlian</h2>
+        <ul>
+            <li>HTML dasar</li>
+            <li>CSS masih belajar</li>
+            <li>JavaScript dikit-dikit</li>
+            <li>Git clone doang</li>
+            <li>Belajar backend nanti</li>
+        </ul>
+    </div>
+
+    <div class="section" id="projects">
+        <h2>Projek Saya</h2>
+        <ul>
+            <li>Website ini (hasil belajar otodidak)</li>
+            <li>Form login (belum bisa validasi)</li>
+            <li>Calculator pake JavaScript (masih bug)</li>
+        </ul>
+        <p>Projeknya kecil-kecil karena saya baru mulai. Tapi semua saya kerjakan sendiri biar bisa ngerti.</p>
+    </div>
+
+    <div class="section" id="contact">
+        <h2>Kontak</h2>
+        <p>Email: cleinbelajar@proton.com</p>
+        <p>Instagram: @clein.alexandra</p>
+        <p>Saya siap belajar bareng siapa aja.</p>
+        <button onclick="alert('Makasih udah liat web saya :)')">Klik kalau mau support saya</button>
+    </div>
+
+    <div class="footer">
+        &copy; 2025 - Dibuat sendiri oleh Clein Alexandra yang masih belajar
+    </div>
+
+    <script>
+        document.title = "Portofolio Jelek Clein Alexandra";
+        setInterval(() => {
+            document.body.style.backgroundColor = ['#ff69b4', '#add8e6', '#ffff00', '#90ee90'][Math.floor(Math.random() * 4)];
+        }, 2000);
+    </script>
+</body>
+</html>
